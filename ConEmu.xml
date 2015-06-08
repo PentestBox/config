@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2015-06-08 14:47:38" build="140707">
+		<key name=".Vanilla" modified="2015-06-08 15:22:24" build="140707">
 			<value name="ColorTable00" type="dword" data="00222827"/>
 			<value name="ColorTable01" type="dword" data="009e5401"/>
 			<value name="ColorTable02" type="dword" data="0004aa74"/>
@@ -483,18 +483,18 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2015-06-08 11:32:47" build="140707">
+				<key name="Tasks" modified="2015-06-08 15:22:00" build="140707">
 				<value name="Count" type="dword" data="00000002"/>
-						<key name="Task1" modified="2015-06-08 11:32:47" build="140707">
+						<key name="Task1" modified="2015-06-08 15:22:00" build="140707">
 					<value name="Name" type="string" data="{cmd}"/>
 					<value name="GuiArgs" type="string" data=" /icon &quot;%pentestbox_ROOT%\PentestBox.exe&quot;"/>
-					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console:d:%USERPROFILE%/Desktop"/>
+					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\..\config\init.bat&quot;  -new_console:d:%USERPROFILE%/Desktop"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Cmd2" type="string" data="{cmd} -cur_console:s50V -cur_console:d:C:\PentestBox"/>
 				</key>
-						<key name="Task2" modified="2015-06-08 11:32:47" build="140707">
+						<key name="Task2" modified="2015-06-08 15:22:00" build="140707">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="GuiArgs" type="string" data="/dir &quot;%userprofile%&quot;"/>
 					<value name="Cmd1" type="string" data="powershell"/>
@@ -503,11 +503,11 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2015-06-08 11:32:47" build="140707">
+				<key name="Apps" modified="2015-06-08 15:22:00" build="140707">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-			<key name="Colors" modified="2015-06-08 11:32:47" build="140707">
-			<key name="Palette1" modified="2015-06-08 11:32:47" build="140707">
+			<key name="Colors" modified="2015-06-08 15:22:00" build="140707">
+			<key name="Palette1" modified="2015-06-08 15:22:00" build="140707">
 					<value name="Name" type="string" data="Monokai"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>

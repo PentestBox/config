@@ -717,3 +717,31 @@ cd PentestBox\bin\WebApplications\
 ls
 git clone https://github.com/neuroo/grabber.git
 clear
+update all
+cd /
+cd PentestBox\
+ls
+cd config
+ls
+sh update.sh 
+sh update.sh all
+update all
+update webapplication
+cd /
+cd PentestBox\
+ls
+update all
+update socialengineertooklkit
+cd config
+ls
+sh update.sh 
+sh update.sh all
+cd /
+cd PentestBox\
+ls
+update all
+cd /
+cd PentestBox\
+ls
+update android
+python
