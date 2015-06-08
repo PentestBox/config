@@ -9,13 +9,13 @@ update=sh "%pentestbox_ROOT%\config\update.sh" $*
 sqlitebrowser="%pentestbox_ROOT%\bin\SqliteBrowser3\bin\sqlitebrowser.exe" -new_console
 firefox="%pentestbox_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe"
 
-burp=start javaw -jar "%pentestbox_ROOT%\bin\burpsuite.jar" -new_console
+burp=start javaw -jar "%pentestbox_ROOT%\bin\tools-repo\burpsuite\burpsuite.jar" -new_console
 ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
 beef=cd "%pentestbox_ROOT%\bin\beef"
 
 autopsy="%pentestbox_ROOT%\bin\AutoSpy\bin\autopsy64.exe" -new_console
 
-jdgui="%pentestbox_ROOT%\bin\androidsecurity\jd-gui\jd-gui.exe" $1 -new_console
+jdgui="%pentestbox_ROOT%\bin\tools-repo\android\jd-gui\jd-gui.exe" $1 -new_console
 introspy="%pentestbox_ROOT%\bin\androdsecurity\Introspy-Analyzer\introspy.py" $*
 
 androlyze=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androlyze.py" $*

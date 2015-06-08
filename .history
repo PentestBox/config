@@ -745,3 +745,28 @@ cd PentestBox\
 ls
 update android
 python
+cd /
+cd PentestBox\
+update config
+update android
+sh
+cd config
+ls
+sh update.sh 
+volatility
+pip install dnspython
+git pull origin master
+update all
+atom
+update
+cd /
+cd PentestBox\bin
+sh update.sh 
+cd ..
+update android
+update
+update config
+atom
+jdgui
+jdgui
+clear
