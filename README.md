@@ -1,3 +1,3 @@
-## Config
+## Config Files
 
-All config files must be in this folder. If there is no option to set this folder directly, it has to be hardlinked.
+This repository holds all the config files which are needed by PentestBox. All update features are controlled from this repository.
