@@ -1,7 +1,6 @@
 if [ $# -eq 0 ]
 then
 	echo "Hi there! This is PentestBox update Utility. You Can update all tools with a single command or individually as well."
-	echo ""
 	echo "update all : updates all the tools present inside PentestBox."
 	echo "update android : updates all android security tools"
 	echo "update beefproject : updates BeefProject"
@@ -11,7 +10,7 @@ then
 	echo "update postexploitation : updates Post Exploitation Tools"
 	echo "update socialengineertoolkit : updates Social Engineer Toolkit"
 	echo "update webapplication : updates Web Application Tools"
-	echo "update config : updates config files
+	echo "update config : updates config files"
 	exit
 fi
 if [ $1 = "android" ]
@@ -481,7 +480,6 @@ then
 	git pull origin master
 	echo "Updated termineter"
 	cd ..
-
 	echo "Stress Testing Tools Updated"
 	cd ..
 	cd ..
