@@ -1,6 +1,7 @@
 if [ $# -eq 0 ]
 then
 	echo "Hi there! This is PentestBox update Utility. You Can update all tools with a single command or individually as well."
+	echo ""
 	echo "update all : updates all the tools present inside PentestBox."
 	echo "update android : updates all android security tools"
 	echo "update beefproject : updates BeefProject"
