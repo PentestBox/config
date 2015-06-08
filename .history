@@ -1,0 +1,719 @@
+﻿lsld
+ls
+clear
+sftp
+beef
+golismero
+golismero.bat info openvas
+golismero.bat -h
+golismero.bat scan mobilesecuritywiki.com
+golismero scan pentestbox.com -o - -o report.html
+golismero scan pentestbox.com -o report.html
+golismero.bat scan pentestbox.com -o report.html
+golismero.bat scan pentestbox.com -o - -o report.html
+clear
+atom
+zap
+sqlmap -h
+git clone https://github.com/bliker/cmder.git
+sha1sum
+cd /
+sha1sum PentestBox.rar
+cd ..
+cd /
+ls
+sha1sum PentestBox.rar 
+spilt
+whoami
+chown
+ssh
+clear
+atom
+clear
+atom
+clear
+
+clear
+
+clear
+hello
+jSQL
+clear
+wpscan -h
+wpscan --update
+burp
+ironwasp
+dnsrecon
+dnsrecon -d pentestbox.com
+instarecon -h
+instarecon -d google.com
+instarecon -d pentestbox.com
+nmap
+nmap -v -A pentestbox.com
+nmap pentestbox.com
+zenmap
+clear
+setoolkit
+cd /
+cd PentestBox\
+subbrute -h
+subbrute pentestbox.com
+clear
+atom
+clear
+sqlmap -h
+clear
+lazagne -h
+lazagne wifi
+jSQL
+burp
+wpscan -h
+wpscan --update
+wireshark
+ironwasp
+xenotix
+setoolkit
+python setoolkit
+clear
+wireshark
+aircrack-ng-gui
+ifconfig
+ipconfig
+aircrack-ng
+airodump-ng
+netsh wlan show all
+rainbow-crack
+rainbowcrack
+rcrack
+rt2rtc
+rtc2rt
+rtsort
+cd /
+cd PentestBox\bin\password_attacks\
+cd rainbowcrack\
+ls
+rcrack_cuda_gui.exe 
+rcrack_gui
+clear
+cd /
+cd PentestBox\
+ls
+cd recon-ng\
+pip install REQUIREMENTS 
+atom
+cd /
+cd PentestBox\
+git clone https://bitbucket.org/LaNMaSteR53/recon-ng.git
+cd recon-ng\
+ls
+python recon-cli 
+ls
+type README.md 
+ls
+recon-ng 
+python recon-ng 
+python recon-cli
+ pip install -r REQUIREMENTS
+is it installed?
+wait
+cat REQUIREMENTS 
+pip install dnspython
+cd ..
+cd vendor\
+ls
+pip install dnspython
+python
+cd /
+cd PentestBox\
+ls
+cd vendor\drozer\Scripts\
+pip install dnspython
+pip.exe install dnspython
+ls
+pip.exe install dnspython
+pip install dnspython
+cd /
+cd PentestBox\
+python get-pip.py 
+pip install dnspython
+cd recon-ng\
+pip install REQUIREMENTS 
+ls
+cd /
+cd P
+cd PentestBox\
+ls
+cd recon-ng\
+ls
+python recon-ng 
+cd modules\
+cd discovery\
+ls
+cd info_disclosure\
+ls
+python interesting_files.py 
+python interesting_files.py -h
+androlyze
+androapkinfo
+androapkinfo -h
+atom
+clear
+cd /
+ls
+clear
+ls
+lazagne all
+sparta
+cd /
+cd PentestBox\
+ls
+git clone https://github.com/SECFORCE/sparta.git
+cd sparta\
+ls
+python sparta.py 
+pip install python-elixir
+pip install elixir
+python sparta.py 
+atom
+rekall
+cd ..
+clear
+vim
+cd /
+cd ..
+mkdir testing
+ls
+cd testing
+ls
+git clone https://github.com/mwrlabs/drozer.git
+cd drozer\
+ls
+cd common\
+ls
+cd ..
+git checkout master
+ls
+cd common\
+ls
+pip install rekall
+ls
+aditya
+clear
+git clone https://github.com/exploitprotocol/testing.git
+cd testing
+ls
+clear
+git remote add -f androguard https://github.com/androguard/androguard.git
+ls
+cd ..
+rmdir testing\
+rmdir --help
+rmdir -h
+rmdir
+clear
+git clone https://github.com/exploitprotocol/testing.git
+updatemy
+cd /
+cd PentestBox\
+ls
+updatemy
+clear
+cd /
+cd PentestBox\
+updatemy
+clear
+cd /
+cd PentestBox\
+ls
+cd bin
+ls
+sh update.sh 
+cd ..
+updatemy
+seupdate
+setoolkit
+python seupdate 
+setoolkit
+python setoolkit 
+cd /
+cd PentestBox\
+ls
+updatemy
+cd /
+cd PentestBox\
+updatemy
+cd bin
+ls
+sh lolupdate.sh
+sh lolupdate.sh android
+cd atom
+atom
+clear
+sh updatepentestbox.sh android
+sh updatepentestbox.sh beefproject
+sh updatepentestbox.sh forensic
+sh updatepentestbox.sh informationgathering
+sh updatepentestbox.sh passwordattacks
+sh updatepentestbox.sh postexploitation
+sh updatepentestbox.sh socialengineertoolkit
+sh updatepentestbox.sh webapplications
+sh updatepentestbox.sh webapplication
+sh updatepentestbox.sh stresstesting
+sh updatepentestbox.sh all
+clear
+update
+sh update.sh 
+sh update.sh
+sh update.sh 
+cd testing
+git remote add -f androguard https://github.com/androguard/androguard.git
+git subtree add --prefix /androidsecurity/androguard androguard master --squash
+git subtree add --prefix %pentestbox_ROOT%/androidsecurity/androguard androguard master --squash
+ls
+git subtree add --prefix %pentestbox_ROOT%/androidsecurity/androguard androguard master --squash
+git subtree add --prefix %pentestbox_ROOT%/androidsecurity androguard master --squash
+git subtree add --prefix C:/Users/Aditya Agrawal/Desktop/testing/androidsecurity/androguard androguard master --squash
+cd /
+cd testing
+ls
+mkdir another
+ls
+cd another
+ls
+git clone https://github.com/exploitprotocol/testing.git
+cd testing
+git remote add -f pidcat https://github.com/JakeWharton/pidcat
+git subtree add --prefix /androidsecurity/pidcat pidcat master
+git subtree add --prefix C:/testing/another/testing/androidsecurity/pidcat pidcat master
+git subtree add --prefix androidsecurity/pidcat pidcat master
+cd androidsecurity\
+ls
+cd pidcat
+ls
+cd ..
+git fetch pidcat master
+git subtree pull --prefix androidsecurity/pidcat pidcat master --squash
+git remote add -f androwarn https://github.com/maaaaz/androwarn.git
+git subtree add --prefix androidsecurity/androwarn amdrowarn master
+git subtree add --prefix androidsecurity/androwarn androwarn master
+cd androidsecurity\
+ls
+cd androwarn\
+ls
+cd ..
+cd pidcat
+cd androidsecurity\pidcat\
+git pull origin master
+nano
+atom
+cd ..
+clear
+ls
+sh update.sh 
+aircrack-ng --h
+nmap-update
+zenmap
+nmap --help
+wireshark
+clear
+cd /
+cd PentestBox\
+ls
+clear
+ls
+cd bin
+sh update.sh 
+cd androidsecurity\
+ls
+git clone https://github.com/androguard/androguard.git
+git clone https://github.com/maaaaz/androwarn.git
+git clone https://github.com/iSECPartners/Introspy-Analyzer.git
+cd ..
+cd ForensicTools\
+ls
+git clone https://github.com/jesparza/peepdf.git
+volatility --help
+ls
+cd peepdf\
+cd ..
+cd CapTipper\
+ls
+cd ..
+cd InformationGathering\
+git clone https://github.com/darkoperator/dnsrecon.git
+cd ..
+cd ForensicTools\
+ls
+cd cuckoo\
+ls
+cd ..
+cd .
+cd ..
+cd InformationGathering\
+ls
+git clone TekDefense-Automater
+git clone https://github.com/1aN0rmus/TekDefense-Automater.git
+git clone https://github.com/laramies/theHarvester.git
+cd /
+cd "Users\Aditya Agrawal\Videos\
+ls
+sh update.sh 
+cd %pentestbox_ROOT
+cd %pentestbox_ROOT%
+cd ..
+cd "Users\Aditya Agrawal\Videos\
+sh update.sh 
+pdfparser
+pdf-parser
+pdfid
+ pip install --pre pype32
+python
+psxview
+pslist
+psscan
+printkey
+memdump
+gem install origami
+gem install pedump
+pedump
+cd /
+cd PentestBox\
+pedump PentestBox.
+pedump PentestBox.exe
+ls
+tcpflow64-1.4.4.exe 
+tcpflow64-1.4.4.exe -h
+git clone https://github.com/9b/pcap_tools.git
+cd pcap_tools\
+ls
+python pcap_summary.py pcaps\
+python pcap_summary.py -d pcaps\
+python pcap_summary.py -d pcaps
+cd ..
+cd bin\ForensicTools\
+git clone https://github.com/volatilityfoundation/volatility.git
+cd volatility
+python vol.py 
+ls
+python setup.py 
+pip install PyCrypto
+clear
+python
+cd /
+cd PentestBox\bin\ForensicTools\volatility
+python vol.py 
+pip install yara-python
+pip install yara
+python vol.py 
+pip uninstall yara
+git clone https://github.com/plusvic/yara.git
+cd yara\
+cd yara-python\
+ls
+python setup.py install
+cd ..
+ls
+cd ..
+python vol.py 
+python vol.py -h
+cmdline
+ls
+cd volatility\
+ls
+d plugins\
+cd plugins\
+ls
+python cmdline.py
+cd ..
+ls
+cd ..
+cd volatility1
+ls
+volatility.exe -h
+cd /
+cd PentestBox\
+ls
+cd sparta\
+ls
+python sparta.py 
+pip install elixir
+python sparta
+python sparta.py 
+pdfwalker
+gem install gtk2
+tcpdump
+cd ..
+pdfwalker
+gem install ruby-gtk2
+cd bin\ForensicTools\
+git clone https://github.com/kevthehermit/RATDecoders.git
+cd RATDecoders\
+ls
+python DarkRAT.py -h
+pip install mitmproxy
+mitmproxy
+python
+mitmdump
+curl
+pip install httpie
+httpie
+pip install --upgrade httpie
+httpie
+http pentestbox.com
+cd /
+cd PentestBox\
+cd vendor\drozer\Scripts\
+http.exe pentestbox.com
+pip install dnspython
+pip uninstall httpie
+pip install httpie
+http pentestbox.com
+wget
+cd /
+ls
+cd PentestBox\
+ls
+vim get-pip.py 
+cd bin\ForensicTools\
+ls
+git clone https://github.com/joxeankoret/pyew.git
+cd pyew\
+ls
+python pyew.py 
+python pyew.py -h
+python pyew.py pdf_example.py 
+clear
+openssl
+openssl --version
+openssl --help
+openssl -v
+make install
+cd..
+cd ..
+git clone https://github.com/wiire/pixiewps.git
+"C:\Users\Aditya Agrawal\Downloads\Programs\WinDump.exe" -h
+frida-ps
+frida
+cd ..
+cd vendor\drozer\Scripts\
+ls
+frida-trace.exe
+iptest.exe 
+pip install iptest
+knockpy.exe
+rekal.exe
+virtualenv
+pip install virtualenv
+pip uninstall virtualenv
+pip install virtualenv
+ls
+pip install frida
+pip uninstall frida
+pip install frida
+pdfwalker
+easy_install frida
+pip install easy_install
+cd /
+cd PentestBox\
+python ez_setup.py 
+easy_install frida
+pip install setuptools
+pip uninstall setuptools
+pip install setuptools
+easy_install frida
+frida-discover
+dateadd
+binwalk
+datediff
+frida
+gdb
+glancess
+glances
+pip install glances
+pip uninstall glances
+pip install glances
+knockpy
+scapy
+pip install scapy
+pip uninstall scapy
+pip install scapy
+scapy
+pip install gnuplot
+pip install dnet
+pip install --allow-external
+pip install --allow-external dnet
+pip install shodan
+pip uninstall shodan
+pip install shodan
+rekall
+django-admin
+pip install django-admin
+pip install django
+pip uninstall django
+pip install ipcluster
+pip install nogotofail
+pip uninstall nogotofail
+pip install nogotofail
+pip install dnspython
+datadiff
+datediff
+radare2
+cd /
+cd PentestBox\bin\ForensicTools\
+git clone https://github.com/inguma/bokken.git
+cd bokken\
+ls
+bokken.
+bokken.bat 
+python bokken.py 
+pip install pyew
+cd ..
+clear
+cd ..
+cd ReverseEngineering\
+radare2 v
+radare2 
+radare2 /jad
+radare2 /jad/
+radare2 jad/
+ls
+cd JavaSnoop\
+ls
+radare2 README.txt 
+cd /
+cd PentestBox\
+cd bin\ReverseEngineering\radare2-w32-0.9.9-git\
+ls
+radare2.exe -c=H rax2.exe
+rekall
+cd/
+cd PentestBox\
+ls
+cd bin\
+ls
+cd password_attacks\
+ls
+git clone https://github.com/PentestBox/thc-hydra-windows.git
+rahash2
+volatility
+cd /
+cd PentestBox\bin\ForensicTools\
+git clone https://github.com/aim4r/VolDiff.git
+cd VolDiff\
+ls
+sh VolDiff.sh 
+cd ..
+ls
+cd wget
+ls
+wget.exe 
+cd ..
+pip install gtk2
+pdfsh
+pip install apache2
+pip install apache
+git clone https://github.com/derv82/wifite.git
+cd wifite\
+python wifite.py 
+airmon-ng
+iwconfig
+clear
+airodump-ng
+aircrack-ng-GUI
+radare2 -c=H rax2
+radare2 -c=H rax2.exe
+cd /
+cd PentestBox\bin\ReverseEngineering\
+ls
+cd radare2-w32-0.9.9-git\
+ls
+radare2.exe -c=H rax2.exe
+sqlitebrowser
+pdfid
+l
+sls
+ls
+pdfid http-request-log.txt 
+clear
+make-pdf-javascript
+radare2
+radare2directory
+autospy
+volatility --info
+clear
+ls
+e.
+gl
+pwd
+cls
+airodump-ng
+cd %pentestbox_ROOT%\bin\ReverseEngineering\
+cd %pentestbox_ROOT%\bin\ReverseEngineering\radare2
+http --help
+http manifestsecurity.com
+http https://manifestsecurity.com
+curl
+curl http://manifestsecurity.com
+curl manifestsecurity.com
+curl --help
+autospy
+clear
+cd /
+cd PentestBox\bin\
+git clone https://github.com/reyammer/shellnoob.git
+cd shellnoob\
+python shellnoob.py 
+clear
+volatility
+volatility --help
+clear
+cd /
+cd PentestBox\bin\PostExploitationTools\
+ls
+git clone https://github.com/mattifestation/PowerSploit.git
+cd nishang\
+ls
+cd Client\
+ls
+cd ..
+ls
+cd scn
+cd Scan\
+ls
+powershell -ExecutionPolicy Bypass -command Port-Scan.ps1 
+cd ..
+ls
+cd ..
+ls
+cd ReverseEngineering\
+ls
+git clone https://github.com/mattifestation/PowerShellArsenal.git
+cd PowerShellArsenal\
+ls
+cd MemoryTools\
+powershell -ExecutionPolicy Bypass -command MemoryTools.ps1 
+cd /
+cd PentestBox\
+git clone https://github.com/SYWorks/waidps.git
+cd waidps\
+ls
+python waidps.py 
+pip install termios
+gem install ruby-termios
+pip install php
+php
+pip uninstall php
+firefox
+firefox
+grabber -h
+pip install BeautifulSoup
+pip uninstall BeautifulSoup
+pip install BeautifulSoup
+grabber -h
+clear
+clear
+cd /
+cd PentestBox\bin\WebApplications\
+ls
+git clone https://github.com/neuroo/grabber.git
+clear

@@ -1,0 +1,138 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --color $*
+pwd=cd
+clear=cls
+pip="%pentestbox_ROOT%\vendor\drozer\Scripts\pip.exe" $*
+updatethis=git pull origin master
+update=sh "%pentestbox_ROOT%\bin\update.sh"
+sqlitebrowser="%pentestbox_ROOT%\bin\SqliteBrowser3\bin\sqlitebrowser.exe" -new_console
+firefox="%pentestbox_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe"
+
+burp=start javaw -jar "%pentestbox_ROOT%\bin\burpsuite.jar" -new_console
+ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
+beef=cd "%pentestbox_ROOT%\bin\beef"
+
+autopsy="%pentestbox_ROOT%\bin\AutoSpy\bin\autopsy64.exe" -new_console
+
+jdgui="%pentestbox_ROOT%\bin\androidsecurity\jd-gui\jd-gui.exe" $1 -new_console
+introspy="%pentestbox_ROOT%\bin\androdsecurity\Introspy-Analyzer\introspy.py" $*
+
+androlyze=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androlyze.py" $*
+androwarn=cd "%pentestbox_ROOT%\bin\androidsecurity\androwarn\"
+androapkinfo=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androapkinfo.py" $*
+androarsc=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androarsc.py" $*
+androauto=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androauto.py" $*
+androaxml=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androaxml.py" $*
+androcsign=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androcsign.py" $*
+androsign=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androsign.py" $*
+androdd=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androdd.py" $*
+androdiff=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androdiff.py" $*
+androdis=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androdis.py" $*
+androgexf=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androgexf.py" $*
+androgui=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androgui.py" $*
+andromercury=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\andromercury.py" $*
+androrisk=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androrisk.py" $*
+androsim=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androsim.py" $*
+androxgmml=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\androxgmml.py" $*
+apkviewer=python "%pentestbox_ROOT%\bin\androidsecurity\androguard\apkviewer.py" $*
+pidcat=python "%pentestbox_ROOT%\bin\androidsecurity\pidcat\pidcat.py" $*
+
+atom="%pentestbox_ROOT%\vendor\Atom\atom.exe" $1 -new_console:s60H
+
+airbase-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airbase-ng.exe" $*
+aircrack-ng-GUI="%pentestbox_ROOT%\bin\aircrack-ng\bin\Aircrack-ng GUI.exe" $1 -new_console
+aircrack-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\aircrack-ng.exe" $*
+airdecap-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airdecap-ng.exe" $*
+airdecloak-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airdecloack-ng.exe" $*
+aireplay-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\aireplay-ng.exe" $*
+airodump-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airodump-ng.exe" $*
+airolib-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airserv-ng.exe" $*
+airtun-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\airtun-ng.exe" $*
+besside-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\besside-ng.exe" $*
+buddy-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\buddy-ng.exe" $*
+easside-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\easside-ng.exe" $*
+ivstools="%pentestbox_ROOT%\bin\aircrack-ng\bin\ivstools.exe" $*
+kstats="%pentestbox_ROOT%\bin\aircrack-ng\bin\kstats.exe" $*
+makeivs-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\makeivs-ng.exe" $*
+packetforge-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\packetforge-ng.exe" $*
+tkiptun-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\tkiptun-ng.exe" $*
+wesside-ng="%pentestbox_ROOT%\bin\aircrack-ng\bin\wesside-ng.exe" $*
+wpaclean="%pentestbox_ROOT%\bin\aircrack-ng\bin\wpaclean.exe" $*
+angry-ip="%pentestbox_ROOT%\bin\Angry IP Scanner\ipscan.exe" $1 -new_console
+nmap="%pentestbox_ROOT%\bin\Nmap\nmap.exe" $*
+ncat="%pentestbox_ROOT%\bin\Nmap\ncat.exe" $*
+ndiff="%pentestbox_ROOT%\bin\Nmap\ndiff.exe" $*
+nmap-update="%pentestbox_ROOT%\bin\Nmap\nmap-update.exe" $*
+nping="%pentestbox_ROOT%\bin\Nmap\nping.exe" $*
+zenmap="%pentestbox_ROOT%\bin\Nmap\zenmap.exe" -new_console
+
+setoolkit=cd "%pentestbox_ROOT%\bin\social-engineer-toolkit\"
+
+dnschef="%pentestbox_ROOT%\bin\Sniffing\dnschef\dnschef.exe" $*
+wifi_honey=sh "%pentestbox_ROOT%\bin\Sniffing\wifi_honey\wifi_honey.sh" $*
+
+jad="%pentestbox_ROOT%\bin\ReverseEngineering\jad\jad.exe" $*
+javasnoop=start javaw -jar "%pentestbox_ROOT%\bin\ReverseEngineering\JavaSnoop\JavaSnoop.jar" $1 -new_console
+ollydbg="%pentestbox_ROOT%\bin\ReverseEngineering\ollydbg\OLLYDBG.exe" $1 -new_console
+baksmali=start javaw -jar "%pentestbox_ROOT%\bin\ReverseEngineering\smali\baksmali-2.0.6.jar"
+smali=start javaw -jar "%pentestbox_ROOT%\bin\ReverseEngineering\smali\smali-2.0.6.jar"
+radare2directory=cd "%pentestbox_ROOT%\bin\ReverseEngineering\radare2"
+automater=python "%pentestbox_ROOT%\bin\InformationGathering\TekDefense-Automater\Automater.py" $*
+dnsrecon=python "%pentestbox_ROOT%\bin\InformationGathering\dnsrecon\dnsrecon.py" $*
+instarecon=python "%pentestbox_ROOT%\bin\InformationGathering\instarecon\instarecon.py" $*
+knock=python "%pentestbox_ROOT%\bin\InformationGathering\knock\knock.py" $*
+responder=python "%pentestbox_ROOT%\bin\InformationGathering\Responder\Responder.py" $*
+sslstrip=python "%pentestbox_ROOT%\bin\InformationGathering\sslstrip\sslstrip.py" $*
+sslyze=python "%pentestbox_ROOT%\bin\InformationGathering\sslyze\sslyze.py" $*
+subbrute="%pentestbox_ROOT%\bin\InformationGathering\subbrute\windows\subbrute.exe" $*
+theHarvester=python "%pentestbox_ROOT%\bin\InformationGathering\theHarvester\theHarvester.py" $*
+wireshark="%pentestbox_ROOT%\bin\Wireshark\App\Wireshark\Wireshark.exe" $1 -new_console
+tshark="%pentestbox_ROOT%\bin\Wireshark\App\Wireshark\tshark.exe" $*
+urlcrazy=ruby "%pentestbox_ROOT%\bin\InformationGathering\urlcrazy\urlcrazy" $*
+
+findmyhash=python "%pentestbox_ROOT%\bin\password_attacks\findmyhash\findmyhash.py" $*
+hashidentifier=python "%pentestbox_ROOT%\bin\password_attacks\hashidentifier\Hash_ID.py" $*
+johntheripper="%pentestbox_ROOT%\bin\password_attacks\johntheripper\run\john.exe" $*
+unshadow="%pentestbox_ROOT%\bin\password_attacks\johntheripper\run\unshadow.exe" $*
+lazagne="%pentestbox_ROOT%\bin\password_attacks\LaZagne\Windows\standalone\Lazagne.exe" $*
+csuit=python "%pentestbox_ROOT%\bin\password_attacks\Password-Cracking-Suite\csuit.py" $*
+patator=python "%pentestbox_ROOT%\bin\password_attacks\patator\patator.py" $*
+rcrack=python "%pentestbox_ROOT%\bin\password_attacks\rainbowcrack\rcrack.exe" $*
+rcrackgui=python "%pentestbox_ROOT%\bin\password_attacks\rainbowcrack\rcrack_gui.exe" $*
+thc-hydra="%pentestbox_ROOT%\bin\Password_Attacks\thc-hydra-windows\hydra.exe" $*
+pw-inspector="%pentestbox_ROOT%\bin\Password_Attacks\thc-hydra-windows\pw-inspector.exe" $*
+
+commix=python "%pentestbox_ROOT%\bin\WebApplications\commix\commix.py" $*
+dirbuster=start javaw -jar "%pentestbox_ROOT%\bin\WebApplications\DirBuster\DirBuster.jar" -new_console
+fimap=python "%pentestbox_ROOT%\bin\WebApplications\fimap\src\fimap.py" $*
+golismero=cd "%pentestbox_ROOT%\bin\WebApplications\golismero"
+jSQL=start javaw -jar "%pentestbox_ROOT%\bin\WebApplications\jSQL\jsql-injection.jar" -new_console
+nikto=portableshell "%pentestbox_ROOT%\bin\WebApplications\nikto\program\nikto.pl" $*
+ironwasp="%pentestbox_ROOT%\bin\WebApplications\IronWasp\IronWasp.exe"
+padbuster=portableshell "%pentestbox_ROOT%\bin\WebApplications\PadBuster\padBuster.pl" $*
+vega="%pentestbox_ROOT%\bin\WebApplications\Vega\Vega.exe" -new_console
+wpscan=ruby "%pentestbox_ROOT%\bin\WebApplications\wpscan\wpscan.rb" $*
+zap="%pentestbox_ROOT%\bin\WebApplications\ZAP_2.4.0\zap.bat"
+w3af_console="%pentestbox_ROOT%\bin\WebApplications\w3af\w3af_console" $*
+w3af_gui="%pentestbox_ROOT%\bin\WebApplications\w3af\w3af_gui"
+sqlmap=python "%pentestbox_ROOT%\bin\WebApplications\sqlmap\sqlmap.py" $*
+xenotix="%pentestbox_ROOT%\bin\WebApplications\OWASP_Xenotix_XSS_Exploit_Framework_V6.1\Xenotix XSS Exploit Framework.exe" -new_console
+yasuo=ruby "%pentestbox_ROOT%\bin\WebApplications\yasuo\yasuo.rb" $*
+
+weevely=python "%pentestbox_ROOT%\bin\PostExploitationTools\weevely3\weevely.py" $*
+
+thc-ssl-dos="%pentestbox_ROOT%\bin\StressTesting\thc-ssl-dos\thc-ssl-dos.exe" $*
+termineter=python "%pentestbox_ROOT%\bin\StressTesting\termineter\termineter.py" $*
+
+bulkextractor="%pentestbox_ROOT%\bin\ForensicTools\bulk_extractor\bulk_extractor.exe" $*
+captipper=python "%pentestbox_ROOT%\bin\ForensicTools\CapTipper\CapTipper.py" $*
+dumpzilla=python "%pentestbox_ROOT%\bin\ForensicTools\dumpzilla\dumpzilla.py"
+volatility="%pentestbox_ROOT%\bin\ForensicTools\volatility\volatility.exe" $*
+pdf-parser=python "%pentestbox_ROOT%\bin\ForensicTools\pdf-parser\pdf-parser.py" $*
+make-pdf-embedded=python "%pentestbox_ROOT%\bin\ForensicTools\make-pdf\make-pdf-embedded.py" $*
+make-pdf-javascript=python "%pentestbox_ROOT%\bin\ForensicTools\make-pdf\make-pdf-embedded.py" $* 
+pdfid=python "%pentestbox_ROOT%\bin\ForensicTools\pdfid\pdfid.py" $* 
+peepdf=python "%pentestbox_ROOT%\bin\ForensicTools\peepdf\peepdf.py" $*
+rekall="%pentestbox_ROOT%\bin\ForensicTools\Rekall\rekal.exe" $*
+winpmem="%pentestbox_ROOT%\bin\ForensicTools\rekall\winpmem_2.0.1.exe" $*
