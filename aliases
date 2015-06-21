@@ -8,6 +8,7 @@ updatethis=git pull origin master
 update=sh "%pentestbox_ROOT%\bin\update.sh" $*
 sqlitebrowser="%pentestbox_ROOT%\bin\SqliteBrowser3\bin\sqlitebrowser.exe" -new_console
 firefox="%pentestbox_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe"
+windump="%pentestbox_ROOT%\bin\Sniffing\windump\WinDump.exe" $*
 
 burp=start javaw -jar "%pentestbox_ROOT%\bin\tools-repo\burpsuite\burpsuite.jar" -new_console
 ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
