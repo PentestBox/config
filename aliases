@@ -138,3 +138,4 @@ pdfid=python "%pentestbox_ROOT%\bin\ForensicTools\pdfid\pdfid.py" $*
 peepdf=python "%pentestbox_ROOT%\bin\ForensicTools\peepdf\peepdf.py" $*
 rekall="%pentestbox_ROOT%\bin\ForensicTools\Rekall\rekal.exe" $*
 winpmem="%pentestbox_ROOT%\bin\ForensicTools\rekall\winpmem_2.0.1.exe" $*
+loki="%pentestbox_ROOT%\bin\tools-repo\forensic\Loki\loki.exe" $*
