@@ -10,6 +10,7 @@ sqlitebrowser="%pentestbox_ROOT%\bin\SqliteBrowser3\bin\sqlitebrowser.exe" -new_
 firefox="%pentestbox_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe"
 windump="%pentestbox_ROOT%\bin\Sniffing\windump\WinDump.exe" $*
 
+
 burp=start javaw -jar "%pentestbox_ROOT%\bin\tools-repo\burpsuite\burpsuite.jar" -new_console
 ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
 beef=cd "%pentestbox_ROOT%\bin\beef"
@@ -89,6 +90,7 @@ sslstrip=python "%pentestbox_ROOT%\bin\InformationGathering\sslstrip\sslstrip.py
 sslyze="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\sslyze\sslyze.exe" $*
 sslscan="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\sslscan\sslscan.exe" $*
 subbrute="%pentestbox_ROOT%\bin\InformationGathering\subbrute\windows\subbrute.exe" $*
+snmpwalk="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\snmpwalk\SnmpWalk.exe" $*
 theHarvester=python "%pentestbox_ROOT%\bin\InformationGathering\theHarvester\theHarvester.py" $*
 wireshark="%pentestbox_ROOT%\bin\WiresharkPortable\App\Wireshark\Wireshark.exe" $1 -new_console
 tshark="%pentestbox_ROOT%\bin\Wireshark\App\Wireshark\tshark.exe" $*
