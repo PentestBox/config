@@ -82,6 +82,7 @@ radare2directory=cd "%pentestbox_ROOT%\bin\ReverseEngineering\radare2"
 automater=python "%pentestbox_ROOT%\bin\InformationGathering\TekDefense-Automater\Automater.py" $*
 dnsrecon=python "%pentestbox_ROOT%\bin\InformationGathering\dnsrecon\dnsrecon.py" $*
 instarecon=python "%pentestbox_ROOT%\bin\InformationGathering\instarecon\instarecon.py" $*
+ipscan="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\ipscan\ipscan-win64-3.3.3.exe" -new_console
 knock=python "%pentestbox_ROOT%\bin\InformationGathering\knock\knock.py" $*
 responder=python "%pentestbox_ROOT%\bin\InformationGathering\Responder\Responder.py" $*
 sslstrip=python "%pentestbox_ROOT%\bin\InformationGathering\sslstrip\sslstrip.py" $*
