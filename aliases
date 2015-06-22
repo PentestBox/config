@@ -128,6 +128,7 @@ yasuo=ruby "%pentestbox_ROOT%\bin\WebApplications\yasuo\yasuo.rb" $*
 
 weevely=python "%pentestbox_ROOT%\bin\PostExploitationTools\weevely3\weevely.py" $*
 
+doona=portableshell "%pentestbox_ROOT%\bin\tools-repo\stresstesting\doona\doona.pl" $*
 thc-ssl-dos="%pentestbox_ROOT%\bin\StressTesting\thc-ssl-dos\thc-ssl-dos.exe" $*
 termineter=python "%pentestbox_ROOT%\bin\StressTesting\termineter\termineter.py" $*
 
