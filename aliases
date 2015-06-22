@@ -113,6 +113,7 @@ pw-inspector="%pentestbox_ROOT%\bin\Password_Attacks\thc-hydra-windows\pw-inspec
 
 commix=python "%pentestbox_ROOT%\bin\WebApplications\commix\commix.py" $*
 dirbuster=start javaw -jar "%pentestbox_ROOT%\bin\WebApplications\DirBuster\DirBuster.jar" -new_console
+dirs3arch=python "%pentestbox_ROOT%\bin\tools-repo\webapplication\dirs3arch\dirs3arch.py" $*
 fimap=python "%pentestbox_ROOT%\bin\WebApplications\fimap\src\fimap.py" $*
 golismero=cd "%pentestbox_ROOT%\bin\WebApplications\golismero"
 jSQL=start javaw -jar "%pentestbox_ROOT%\bin\WebApplications\jSQL\jsql-injection.jar" -new_console
