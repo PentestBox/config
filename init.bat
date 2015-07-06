@@ -32,7 +32,10 @@
 @set PYTHONPATH=%pentestbox_ROOT%\vendor\drozer\Lib\site-packages
 :: Add aliases
 @doskey /macrofile="%pentestbox_ROOT%\config\aliases"
-
+:: Custom aliases
+@if exist "%pentestbox_ROOT%\bin\customaliases" (
+	@doskey /macrofile="%pentestbox_ROOT%\bin\customaliases"
+)
 :: Set home path
 @if not defined HOME set HOME=%USERPROFILE%
 
