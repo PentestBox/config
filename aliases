@@ -10,6 +10,9 @@ sqlitebrowser="%pentestbox_ROOT%\bin\SqliteBrowser3\bin\sqlitebrowser.exe" -new_
 firefox="%pentestbox_ROOT%\bin\FirefoxPortable\FirefoxPortable.exe"
 windump="%pentestbox_ROOT%\bin\Sniffing\windump\WinDump.exe" $*
 aliases=sh "%pentestbox_ROOT%\bin\tools-repo\aliases.sh" $*
+wget="%pentestbox_ROOT%\bin\tools-repo\others\wget\wget.exe" $*
+dig="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\BIND\dig.exe" $*
+nslookup="%pentestbox_ROOT%\bin\tools-repo\InformationGathering\BIND\nslookup.exe" $*
 
 burp=start javaw -jar "%pentestbox_ROOT%\bin\tools-repo\burpsuite\burpsuite.jar" -new_console
 ettercap="%pentestbox_ROOT%\bin\Sniffing\ettercap\ettercap.exe" $*
